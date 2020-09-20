@@ -1,1 +1,1 @@
-https://MultikBro.github.io/rsschool-cv/cv
+https://MultikBro.github.io/rsschool-cv/
