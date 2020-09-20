@@ -1,0 +1,37 @@
+body {
+    background: black;
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.section {
+    margin-top: 12px;
+    
+}
+.section-title {
+    background: #CCC;
+    display: inline-block;
+    padding: 0 5px;
+
+}
+.section-description {
+    background: #CCC;
+    padding: 0 5px;
+    width: fit-content;
+}
+.avatar {
+    width: 300px;
+
+}
+.title {
+    background-color: #CCC;
+    display: inline-block;
+    padding: 0 5px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

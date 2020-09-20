@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width", initial-scale=1.0>
+         <link href="style.css" rel="stylesheet" type="text/css">
+         <title>Resume</title>
+     </head>
+     <body>
+         <header class="header">
+             <h1 class="title">Крупин Евгений</h1>
+             <img src="./Pablo_Escobar_Mug.jpg" class="avatar">
+         </header>
+        <main class="main">
+            <section class="section">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-description">
+                    <li class="item">
+                        <a href="https://vk.com/id68797407" class="item-link">vkontakte </a>
+                    </li>
+                    <li class="item">
+                        <a href="tel:+375291234567" class="item-link">+375291234567</a>
+                    </li>
+                    <li class="item">
+                        <a href="mailto:ekrupin92@gmail.com" class="item-link">ekrupin92@gmail.com</a>
+                    </li>
+                </ul>                
+            </section>
+            <section class="section">
+                <h2 class="section-title">Summary</h2>
+                <p class="section-description">I want to learn IT technologies and use them successfully</p>                
+            </section>
+            <section class="section">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-description">Basic html, CSS, JavaScript</p>                
+            </section>
+            <section class="section">
+                <h2 class="section-title">Code examples</h2>
+                <pre class="section-description">
+                    function debounce(f, ms) {
+                        let isCooldown = false;
+                        return (...args) => {
+                            if (isCooldown) return;
+                            f.apply(this, args);
+                            isCooldown = true
+                            setTimeout(() => isCooldown = false, ms);
+                        };
+                    }
+                </pre>                  
+            </section>
+            <section class="section">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-description">I don't have experience on IT sphere</p>                
+            </section>
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <p class="section-description">BREST STATE TECHNICAL UNIVERSITY</p>                
+            </section>
+            <section class="section">
+                <h2 class="section-title">English</h2>
+                <p class="section-description">A2 self education</p>                
+            </section>
+        </main>
+
+     </body>
+</html>    
+
